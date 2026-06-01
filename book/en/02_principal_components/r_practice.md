@@ -253,7 +253,7 @@ fviz_pca_var(pca_prcomp,
 **Reading the circle in our example:**
 - **Right side (PC1 positive):** Mathematics, Physics, Biology (Sciences) all point to the right
 - **Left side (PC1 negative):** Literature and History (Humanities) point to the left
-- **Angle between Sciences and Humanities:** ~180° (perfect negative correlation)
+- **Angle between Sciences and Humanities:** approximately 180 degrees (perfect negative correlation)
 
 **Conclusion:** PC1 is the **Science vs. Humanities** axis
 

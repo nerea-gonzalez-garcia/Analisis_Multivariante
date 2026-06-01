@@ -185,7 +185,7 @@ $$B = \begin{pmatrix} 0.707 & -0.707 \\ 0.707 & 0.707 \end{pmatrix}$$
 
 $$Bx = \begin{pmatrix} 0.707 & -0.707 \\ 0.707 & 0.707 \end{pmatrix} \begin{pmatrix} 2 \\ 1 \end{pmatrix} = \begin{pmatrix} 1.414 - 0.707 \\ 1.414 + 0.707 \end{pmatrix} = \begin{pmatrix} 0.707 \\ 2.121 \end{pmatrix}$$
 
-**Interpretación geométrica:** La matriz $B$ es una **matriz de rotación** de ángulo $\pi/4 = 45°$ (rotación en sentido contrario a las agujas del reloj). El punto $(2, 1)$ se rota $45°$ alrededor del origen, sin cambiar su distancia respecto al origen.
+**Interpretación geométrica:** La matriz $B$ es una **matriz de rotación** de ángulo $\pi/4 = 45^\circ$ (rotación en sentido contrario a las agujas del reloj). El punto $(2, 1)$ se rota 45 grados alrededor del origen, sin cambiar su distancia respecto al origen.
 
 Verificación: 
 - Distancia original: $\sqrt{2^2 + 1^2} = \sqrt{5} \approx 2.236$

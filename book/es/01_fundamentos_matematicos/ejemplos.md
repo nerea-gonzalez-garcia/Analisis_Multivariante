@@ -43,6 +43,7 @@ X_c = \begin{pmatrix}
 2 & 2
 \end{pmatrix}
 $$
+
 Comprobación de seguridad: La suma de cada columna de $X_c$ es cero.
 
 **3. Matriz SSCP ($X_c^T X_c$):**

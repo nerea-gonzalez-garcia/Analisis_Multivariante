@@ -110,7 +110,7 @@ Representadas habitualmente por la matriz $L$ de dimensión $p \times p$.
 
 Más allá de analizar el impacto general, al representar datos en un espacio subóptimo bidimensional (ej. el plano de las componentes 1 y 2), es indispensable conocer la fidelidad geométrica de lo que estamos observando para no extraer conclusiones falaces.
 
-### Calidad de representación de individuos ($\cos^2$)
+### Calidad de representación de individuos (cos²)
 
 Supongamos que un individuo (punto en el espacio original) se proyecta sobre la componente principal $k$. El $\cos^2$ se define geométricamente como el coseno al cuadrado del ángulo que forma el vector de posición original del individuo con el eje de la componente $k$.
 * **Interpretación:** Un $\cos^2$ cercano a 1 implica un ángulo cercano a 0, lo que significa que el vector original es prácticamente paralelo a la componente: la proyección sobre ese plano refleja casi a la perfección el perfil original del individuo. 
@@ -203,7 +203,7 @@ En este nuevo sistema, la matriz de covarianzas se convierte en la matriz diagon
 
 Existen dos formas computacionalmente equivalentes de realizar el ACP. Ambas dan el mismo resultado, pero tienen ventajas y desventajas distintas.
 
-### Aproximación 1: Descomposición Espectral de $S$ o $R$
+### Aproximación 1: Descomposición Espectral de S o R
 
 **Procedimiento:**
 1. Centrar (y opcionalmente estandarizar) la matriz de datos
@@ -221,7 +221,7 @@ Existen dos formas computacionalmente equivalentes de realizar el ACP. Ambas dan
 - Si $p$ es muy grande, formar explícitamente $X_c^T X_c$ puede causar inestabilidad numérica
 - Computacionalmente más lento para matrices grandes
 
-### Aproximación 2: Descomposición en Valores Singulares de $X_c$
+### Aproximación 2: Descomposición en Valores Singulares de Xc
 
 **Procedimiento:**
 1. Centrar (y opcionalmente estandarizar) la matriz de datos
@@ -245,7 +245,7 @@ Existen dos formas computacionalmente equivalentes de realizar el ACP. Ambas dan
 
 Una decisión crítica en la práctica es si realizar el ACP sobre $S$ (matriz de covarianzas) o sobre $R$ (matriz de correlaciones). Esta elección tiene implicaciones profundas en los resultados.
 
-### ACP sobre Matriz de Covarianzas ($S$)
+### ACP sobre Matriz de Covarianzas S
 
 **Cuándo usar:**
 - Variables medidas en la misma unidad (ej. todas en metros, o todas en euros)
@@ -258,7 +258,7 @@ Una decisión crítica en la práctica es si realizar el ACP sobre $S$ (matriz d
 
 **Ejemplo:** Si analizamos antropometría combinando "peso en kg", "altura en cm" y "edad en años", el peso (varianza ~2000) y la altura (varianza ~400) dominarán completamente, mientras que la edad (varianza ~500) será marginada, aunque todas sean estadísticamente relevantes.
 
-### ACP sobre Matriz de Correlaciones ($R$)
+### ACP sobre Matriz de Correlaciones R
 
 **Cuándo usar:**
 - Variables medidas en unidades distintas (ej. euros, metros, horas)

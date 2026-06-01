@@ -105,7 +105,7 @@ Si los pesos son $v_1 = (0.8, 0.6)^T$ y $\sqrt{\lambda_1} = 2$, entonces:
 
 ## PROBLEMAS DE INTERPRETACIÓN
 
-### Ejercicio Práctico 1: Calidad de Representación ($\cos^2$) e Ilusiones Proyectivas
+### Ejercicio Práctico 1: Calidad de Representación (cos²) e Ilusiones Proyectivas
 
 **Enunciado:** En un estudio de marcas de vehículos basado en 10 atributos de seguridad y confort, se aplica un ACP y se decide retener únicamente las componentes PC1 y PC2. Al revisar los diagnósticos, observamos que para el individuo (marca) "Volvo", la calidad de representación en el primer plano factorial es:
 - $\cos^2(\text{Volvo}, \text{PC1}) = 0.05$
@@ -132,9 +132,9 @@ La proximidad espacial en el gráfico 2D es un **espejismo de proyección**. El 
 **Ejemplo concreto:** Imagina que Volvo vive en un espacio 10-dimensional. Si proyectamos Volvo sobre el plano PC1-PC2 con un $\cos^2 = 0.15$, es como si intentaras describir una ciudad mirando solo desde arriba (vista aérea). Una vez que bajas al nivel del suelo (explores las otras dimensiones), la ciudad es completamente distinta. Dos puntos que se ven cercanos desde el aire podrían estar en barrios completamente distintos en la realidad.
 
 **Cálculo del ángulo de proyección:**
-$$\cos^2_{\text{total}} = 0.15 \Rightarrow \cos(\theta) = \sqrt{0.15} \approx 0.387 \Rightarrow \theta \approx 67°$$
+$$\cos^2_{\text{total}} = 0.15 \Rightarrow \cos(\theta) = \sqrt{0.15} \approx 0.387 \Rightarrow \theta \approx 67^\circ$$
 
-Volvo forma un ángulo de aproximadamente 67° con el plano principal. El punto se proyecta MUY lejos de su posición real.
+Volvo forma un ángulo de aproximadamente 67 grados con el plano principal. El punto se proyecta MUY lejos de su posición real.
 
 **Conclusión correcta:** Es posible que Volvo y Honda estén cercanos en PC1-PC2 pero sean **extremadamente distintos** en las otras dimensiones. Necesitarías verificar también los $\cos^2$ de Honda y, idealmente, examinar sus valores en las componentes 3 y posteriores para hacer una comparación justa.
 
